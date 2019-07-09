@@ -12,7 +12,8 @@
 	<link rel="stylesheet" type="text/css" href="assets/css/responsive.css">
 	<link rel="stylesheet" type="text/css" href="assets/font-awesome/css/all.min.css">
 	<link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap" rel="stylesheet">
-	<!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" > -->
+	<link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+	<link rel="stylesheet" href="assets/css/owl.theme.default.css">
 	<title>Corpers Aid | Home</title>
 </head>
 <body>
@@ -93,7 +94,84 @@
 					<div class="col-md-9">
 						<div class="product-view">
 							<div class="product-img">
-								<img src="assets/images/ict-room.jpg">
+								<div class="slide-container">
+								  <div class="mySlides">
+								    <div class="numbertext">1 / 6</div>
+								    <img src="assets/images/ict-room.jpg" >
+								  </div>
+								  <div class="mySlides">
+								    <div class="numbertext">2 / 6</div>
+								    <img src="assets/images/ict-room.jpg" >
+								  </div>
+								  <div class="mySlides">
+								    <div class="numbertext">3 / 6</div>
+								    <img src="assets/images/ict-room.jpg" >
+								  </div>
+								  <div class="mySlides">
+								    <div class="numbertext">4 / 6</div>
+								    <img src="assets/images/ict-room.jpg" >
+								  </div>
+								  <div class="mySlides">
+								    <div class="numbertext">5 / 6</div>
+								    <img src="assets/images/ict-room.jpg" >
+								  </div>
+								  <div class="mySlides">
+								    <div class="numbertext">6 / 6</div>
+								    <img src="assets/images/ict-room.jpg" >
+								  </div>
+								  <a class="prev" onclick="plusSlides(-1)">❮</a>
+								  <a class="next" onclick="plusSlides(1)">❯</a>
+
+								  <!-- <div class="caption-container">
+								    <p id="caption"></p>
+								  </div> -->
+
+								  <div class="row" style="margin: 0;">
+								    <div class="column">
+								      <img class="demo cursor" src="assets/images/ict-room.jpg" onclick="currentSlide(1)" alt="Tech Hub">
+								    </div>
+								    <div class="column">
+								      <img class="demo cursor" src="assets/images/ict-room.jpg" onclick="currentSlide(2)" alt="Tech Hub 2">
+								    </div>
+								    <div class="column">
+								      <img class="demo cursor" src="assets/images/ict-room.jpg" onclick="currentSlide(3)" alt="Tech Hub 3">
+								    </div>
+								    <div class="column">
+								      <img class="demo cursor" src="assets/images/ict-room.jpg" onclick="currentSlide(4)" alt="Tech Hub 4">
+								    </div>
+								    <div class="column">
+								      <img class="demo cursor" src="assets/images/ict-room.jpg" onclick="currentSlide(5)" alt="Tech Hub 5">
+								    </div>    
+								    <div class="column">
+								      <img class="demo cursor" src="assets/images/ict-room.jpg" onclick="currentSlide(6)" alt="Tech Hub 6">
+								    </div>
+								  </div>
+								</div>
+								<!-- <div id="demo" class="carousel slide" data-ride="carousel">
+									<div class="carousel-inner ads-slide">
+									    <div class="carousel-item active ads-slider">
+									      <img src="assets/images/ict-room.jpg" class="corpersaid-slider" alt="Corpers Aid Products">
+									    </div>
+									    <div class="carousel-item ads-slider">
+									      <img src="assets/images/ict-room.jpg" class="corpersaid-slider" alt="Corpers Aid Products"> 
+									    </div>
+									    <div class="carousel-item ads-slider">
+									      <img src="assets/images/ict-room.jpg" class="corpersaid-slider" alt="Corpers Aid Products">
+									    </div>
+									</div>
+									  <a class="carousel-control-prev" href="#demo" data-slide="prev">
+									    <span class="carousel-control-prev-icon"></span>
+									  </a>
+									  <a class="carousel-control-next" href="#demo" data-slide="next">
+									    <span class="carousel-control-next-icon"></span>
+									  </a>
+									  <ul class="carousel-indicators">
+									    <li data-target="#demo" data-slide-to="0" class="active"></li>
+									    <li data-target="#demo" data-slide-to="1"></li>
+									    <li data-target="#demo" data-slide-to="2"></li>
+									  </ul>
+								</div> -->
+
 								<div class="product-description">
 									<h3>Office Assistance, At Cool Tech Hub</h3>
 									<div class="product-post">
@@ -281,6 +359,19 @@
 								<div class="show-contact">
 									<button class="show-contact-btn">Show Contact</button>
 								</div>
+								<div class="start-chat">
+									<button class="start-chat-btn" id="show">Start Chat</button>
+									<div class="menu2" style="display: none;">
+										<div class="filter-keyword">
+										<label>Start Chatting</label>
+										<textarea class="search-keyword" type="text" name="text" placeholder="Enter your message here"></textarea>
+									</div>
+										<div class="show-contact">
+											<button class="show-contact-btn">Send Message</button>
+										</div>
+										
+									</div>
+								</div>
 							</div>
 
 							<div class="filter-listing">
@@ -355,8 +446,8 @@
 				<div class="contact_info">
 					<h6>Contact Info</h6>
 					<p><b>Address: </b> Victoria Island</p>
-					<p><b>Phone: </b> 08000000000</p>
-					<p><b>Email: </b> info@corpersaid.com</p>
+					<p><b>Phone: </b> <a href="tel:2348000000000">+23480 0000 0000</a> </p>
+					<p><b>E-mail: </b> <a href="mailto:info@corpersaid.com">info@corpersaid.com</a></p>
 				</div>
 			</div>
 			<div class="copyright">
@@ -367,6 +458,15 @@
 
 <script src="assets/js/jquery.min.js"></script>
 <script src="assets/js/bootstrap.min.js"></script>
+<script src="assets/js/owl.carousel.min.js"></script>
+<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script> -->
+<script type="text/javascript">
+	$(document).ready(function(){
+    $('#show').click(function() {
+      $('.menu2').toggle("slide");
+    });
+});
+</script>
 <script src="assets/js/corpersaid.js"></script>
 </body>
 </html>

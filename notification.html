@@ -12,11 +12,12 @@
 	<link rel="stylesheet" type="text/css" href="assets/css/responsive.css">
 	<link rel="stylesheet" type="text/css" href="assets/font-awesome/css/all.min.css">
 	<link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap" rel="stylesheet">
-	<!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" > -->
-	<title>Corpers Aid | Home</title>
+	<link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+	<link rel="stylesheet" href="assets/css/owl.theme.default.css">
+	<title>Corpers Aid | Messgages</title>
 </head>
 <body style="background: #F7F7F7;">
-	<div class="corpersaid-landing">
+	<div class="corpersaid-landing" >
 		<!-- navbar	-->
 		<div class="container-fluid fixed-top bg-white nav-bar2">
 			<div class="container">
@@ -29,10 +30,10 @@
 		            <div class="collapse navbar-collapse bg-menu" id="navbarSupportedContent">
 		                <ul class="navbar-nav ml-auto menu orange menu-color">
 		                    <li class="nav-item nav-item-border">
-		                        <a class="nav-link active-nav" href="notification.html"><i class="fa fa-bell"></i><br> Notification</a>
+		                        <a class="nav-link" href="notification.html"><i class="fa fa-bell"></i><br> Notification</a>
 		                    </li>
 		                    <li class="nav-item nav-item-border">
-		                        <a class="nav-link" href="message.html"><i class="fa fa-sms"></i><br> Messages</a>
+		                        <a class="nav-link active-nav" href="message.html"><i class="fa fa-sms"></i><br> Messages</a>
 		                    </li>
 		                    <li class="nav-item nav-item-border">
 		                        <a class="nav-link " href="mypost.html" ><i class="fas fa-poll-h"></i><br> My Post</a>
@@ -60,109 +61,84 @@
 		    </div>
 		</div>
 		<!-- <navbar end> -->
-		<div class="corpersaid-view mt-5">
+			<div class="corpersaid-view mt-5" >
 			<div class="container">
-				<h2 class="text-center mb-4">Post Listing</h2>
-				<div class="post-details-section">
-					<div class="post-detail">
-						<h4>Post Details</h4>
-						<button class="clear-field-btn">Clear All Field</button>
-					</div>
-					<div class="searching mb-5">
-						<h6>Category <sup>*</sup></h6>
-						<div class="select-5">
-							<select class="select-option4">
-								<option>Select Category </option>
-								<option>To Let</option>
-								<option>For Sale</option>
-								<option>Services</option>
-								<option>PPA</option>
-							</select>
-							<div class="caret">
-								<i class="fas fa-caret-down"></i>
+				<div class="row mt-5">
+					<div class="col-md-3">
+						<div class="product-view">
+							<div class="contact-info2">
+								<div class="img-icon">
+									<img src="assets/images/img-icon.png">
+								</div>
+								<div class="user-name2">
+									<p class="user-name-bold">Amina David</p>
+								</div>
 							</div>
 						</div>
 					</div>
-
-					<p>Add Pictures</p>
-					<p><b>Listings with photo gets more clients.</b> Formats: jpg, gif and png. Max allowed size for uploaded files is 5MB.</p>
-					<p>Add at least 1 photo for your listing</p>
-					<div class="picture-upload">
-						<div class="upload1">
-							<img src="assets/images/camera.svg">
-						</div>
-						<div class="upload1">
-							<img src="assets/images/camera2.svg">
-						</div>
-						<div class="upload1">
-							<img src="assets/images/camera2.svg">
-						</div>
-						<div class="upload1">
-							<img src="assets/images/camera2.svg">
-						</div>
-						<div class="upload1">
-							<img src="assets/images/camera2.svg">
-						</div>
-						<div class="upload1">
-							<img src="assets/images/camera2.svg">
-						</div>
-						<div class="upload1">
-							<img src="assets/images/camera2.svg">
-						</div>
-					</div>
-					<p class="mt-3"><b>First picture is what everyone sees.</b></p>
-					<div class="fill-form">
-						<form>
-							<div class="enter-details">
-								<label>Title <sup>*</sup></label><br>
-								<input class="enter-title" type="text" name="text" placeholder="Write a clear of your listing"><br>
-								<small>50 Character Max</small>
-							</div>
-							<div class="enter-details">
-								<label>Description <sup>*</sup></label><br>
-								<textarea class="enter-description" type="text" name="text" placeholder="Please provide details of your products/services. You can mention as many details as possible, this will make your listing very easy for clients."></textarea><br>
-								<small>300 Character Max</small>
-							</div>
-						</form>
-					</div>
-				</div>
-				<div class="post-details-section">
-					<p><b>Contact Information for your Listing</b></p>
-					<div class="searching">
-						<h6>Category </h6>
-						<div class="select-5 mb-4" style="width: 30%; justify-content: space-between;">
-							<select class="select-option4">
-								<option>Select Category </option>
-								<option>To Let</option>
-								<option>For Sale</option>
-								<option>Services</option>
-								<option>PPA</option>
-							</select>
-							<div class="caret">
-								<i class="fas fa-caret-down"></i>
+					<div class="col-md-9">
+						<div class="contact-section">
+							<div class="messgae-box-section">
+								<h3>Notifications</h3>
+								<div class="notify-box">
+									<div class="notify-info">
+										<div class="form-check">
+									      <label class="form-check-label">
+									        <input type="checkbox" class="form-check-input">
+									      </label>
+									    </div>
+										<img src="assets/images/bandmember.jpg" alt="Avatar" class="notify-icon">
+										<div class="notify-text">
+											<p class="notify-text1">These ads may be interesting for you. Check them out!</p>
+										</div>
+									</div>
+									<div class="notify-date">
+										<p>12mins ago</p>
+									</div>
+								</div>
+								<div class="notify-box">
+									<div class="notify-info">
+										<div class="form-check">
+									      <label class="form-check-label">
+									        <input type="checkbox" class="form-check-input">
+									      </label>
+									    </div>
+										<img src="assets/images/bandmember.jpg" alt="Avatar" class="notify-icon">
+										<div class="notify-text">
+											<p class="notify-text1">These ads may be interesting for you. Check them out!</p>
+										</div>
+									</div>
+									<div class="notify-date">
+										<p>2hrs ago</p>
+									</div>
+								</div>
+								<div class="notify-box">
+									<div class="notify-info">
+										<div class="form-check">
+									      <label class="form-check-label">
+									        <input type="checkbox" class="form-check-input">
+									      </label>
+									    </div>
+										<img src="assets/images/bandmember.jpg" alt="Avatar" class="notify-icon">
+										<div class="notify-text">
+											<p class="notify-text1">These ads may be interesting for you. Check them out!</p>
+										</div>
+									</div>
+									<div class="notify-date">
+										<p>Jul 2</p>
+									</div>
+								</div>
+								<div class="see-more text-center mt-5">
+									<button class="find-btn">See More</button>
+								</div>
 							</div>
 						</div>
 					</div>
-					<form>
-						<div class="enter-details">
-							<label>Region <sup>*</sup></label><br>
-							<input class="enter-region" type="text" name="text" placeholder="Please enter your regoin">
-						</div>
-						<div class="enter-details">
-							<label>Local Government <sup>*</sup></label><br>
-							<input class="enter-region" type="text" name="text" placeholder="Please enter your Local Government">
-						</div>
-					</form>
-				</div>
-				<div class="text-center mt-4">
-					<button class="start-post-btn">PUBLISH NOW</button>
-					<p class="mt-3 terms">By publishing an listing you agree and accept the Rules of <span class="corper-green"> Corpers  Aid Ltd</span></p>
 				</div>
 			</div>
 		</div>
-
 	</div>
-	<footer class="container-fluid bg-light">
+	<footer class="container-fluid bg-light start-post-foot">
 		<div class="container">
 			<div class="footer-info">
 				<div class="about_info">
@@ -185,5 +161,6 @@
 <script src="assets/js/jquery.min.js"></script>
 <script src="assets/js/bootstrap.min.js"></script>
 <script src="assets/js/corpersaid.js"></script>
+
 </body>
 </html>

@@ -7,3 +7,4 @@ $(window).on("load", function() {
        $('.form-sent','.form-content').addClass('show-it');
     })
 });
+

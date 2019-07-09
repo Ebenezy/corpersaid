@@ -12,6 +12,12 @@
 .nav-link:hover{
 	color: #04BB97;
 }
+.head-section{
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+	height: 92vh;
+}
 .find-btn-click{
 	text-align: center;
 } 
